@@ -1,21 +1,19 @@
-client/design
-client/style-guide.md
-client/.env
+# Backend-specific
 server/.env
+server/node_modules
 
-
-# dependencies
+# General Node.js dependencies
 node_modules
 /.pnp
-.pnp.jsg
+.pnp.js
 
-# testing
+# Testing
 /coverage
 
-# production
+# Production
 /build
 
-# misc
+# Misc
 .DS_Store
 .env.local
 .env.development.local
