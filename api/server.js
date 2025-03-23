@@ -13,6 +13,12 @@ console.log('DATABASE_URL:', process.env.DATABASE_URL);
 console.log('PORT:', PORT);
 console.log('BASE_URL:', process.env.BASE_URL);
 
+// Check if DATABASE_URL is defined
+if (!process.env.DATABASE_URL) {
+    console.error('Error: DATABASE_URL is not defined. Please set the environment variable.');
+    process.exit(1);
+}
+
 // Middleware
 app.use(cors()); // Enable CORS for all origins
 app.use(express.json()); // Parse JSON bodies
