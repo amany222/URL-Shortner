@@ -14,7 +14,7 @@ This is a URL shortening service built with Node.js, Express, and MongoDB. It al
 - **Database**: MongoDB (hosted on MongoDB Atlas)
 - **Frontend**: (Not specified, assuming minimal or none for this project)
 - **Deployment Attempted**: Railway (failed due to environment variable issues)
-- **Fallback**: ngrok (to expose local server)
+
 
 
 
